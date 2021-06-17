@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "C:\\Users\\vinutha\\Desktop\\blog 2\\my_env\\Scripts\\python.exe",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./App",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
+}
