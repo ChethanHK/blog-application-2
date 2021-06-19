@@ -24,6 +24,11 @@
           <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
           <p class="card-text">{{post.content|slice:":200"}}</p>
           <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+          <p>
+            <a href="{% url 'blog:post_share' post.id %}">
+              share this post
+            </a>
+          </p>
         </div>
       </div>
       {% endfor %}

@@ -14,7 +14,6 @@ class DetailView(generic.DetailView):
   model = Post
   template_name = 'post_detail.html'
 
-
   def post_share(request, post_id):
 # Retrieve post by id
     post = get_object_or_404(Post, id=post_id, status='published')
