@@ -1,3 +1,3 @@
-Framework : Django
-Language : Python
+Framework : Django    
+Language : Python     
 http://chethanhk.pythonanywhere.com/
